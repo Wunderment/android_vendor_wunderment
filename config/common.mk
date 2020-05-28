@@ -3,10 +3,6 @@ PRODUCT_PACKAGES += \
     F-DroidPrivilegedExtension \
     F-Droid
 
-# Add Lineage's OpenWeatherProvider.
-PRODUCT_PACKAGES += \
-    OpenWeatherProvider
-
 # Add Seedvault.
 PRODUCT_PACKAGES += \
     Seedvault \
