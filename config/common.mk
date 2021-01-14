@@ -1,3 +1,7 @@
+# Override the updater URL.
+PRODUCT_PROPERTY_OVERRIDES += \
+    lineage.updater.uri=https://ota.wunderment.org/api/v1/{device}/{type}/{incr}
+
 # Add F-Droid and it's privilege extension.
 PRODUCT_PACKAGES += \
     F-DroidPrivilegedExtension \
