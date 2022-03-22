@@ -7,9 +7,9 @@ PRODUCT_PACKAGES += \
     F-DroidPrivilegedExtension \
     F-Droid
 
-# Add UnifiedNlp package.
-PRODUCT_PACKAGES += \
-    NetworkLocation
+# Add UnifiedNlp package.  NOTE: UnifiedNLP is not yet supported on Android 12.
+#PRODUCT_PACKAGES += \
+#    NetworkLocation
 
 # Remove the lineage signing keys from the recovery build, we only want ours here which get autoamtically
 # added during the signing process.
