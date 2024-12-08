@@ -4,7 +4,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Add F-Droid and it's privilege extension.
 PRODUCT_PACKAGES += \
-    F-DroidPrivilegedExtension \
     F-Droid
 
 # Add UnifiedNlp package.  NOTE: UnifiedNLP is not yet supported on Android 12.
